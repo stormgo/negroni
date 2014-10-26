@@ -1,0 +1,5 @@
+#!/bin/bash -e
+
+export GOPATH=${PWD}/gopath
+
+go run server.go

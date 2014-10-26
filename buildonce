@@ -1,0 +1,6 @@
+#!/bin/bash -e
+
+export GOPATH=${PWD}/gopath
+mkdir -p $GOPATH
+
+go get github.com/codegangsta/negroni

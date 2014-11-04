@@ -2,4 +2,5 @@
 
 export GOPATH=${PWD}/gopath
 
-go run server.go
+#go run server.go
+go run mux.go
